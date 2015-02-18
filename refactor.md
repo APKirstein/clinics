@@ -12,7 +12,9 @@ That means we are improving our code in some concrete fashion. We will go throug
 
 ### When do we refactor?
 
-So, *when* do we apply these improvements? Good question. Glad I asked it. Refactoring is a concern for working code. So, you don't refactor first. You write code first. Take your requirements, go through the process of creating your application, program or feature and once things are working, go back and find opportunities to improve your code.
+So, *when* do we apply these improvements? Good question. Glad I asked it. Refactoring is a concern for working code. So, you don't refactor first. You write code first. Take your requirements, go through the process of creating your application, program or feature and once things are working, go back and find opportunities to improve your code.  
+
+**A comment about testing.** In the context of testing, you'll hear us repeat the saying, "Red Green Refactor". Refactoring occurs third in that process of (1) writing a failing test, (2) making the test pass, and then (3) improving the functioning code (refactoring). 
 
 ### Why do we refactor?
 
