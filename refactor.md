@@ -14,7 +14,9 @@ That means we are improving our code in some concrete fashion. We will go throug
 
 So, *when* do we apply these improvements? Good question. Glad I asked it. Refactoring is a concern for working code. So, you don't refactor first. You write code first. Take your requirements, go through the process of creating your application, program or feature and once things are working, go back and find opportunities to improve your code.  
 
-**A comment about testing.** In the context of testing, you'll hear us repeat the saying, "Red Green Refactor". Refactoring occurs third in that process of (1) writing a failing test, (2) making the test pass, and then (3) improving the functioning code (refactoring). 
+**A comment about the meta.** When you write code, especially as a beginner, it can be overwhelming to worry about anything other than satisfying required behavior or output. Focus on that first. You need to get things working. If you try to worry about well-factored code while you are problem solving, it can do more harm than good.
+
+**A comment about testing.** In the context of testing, you'll hear us repeat the saying, "Red Green Refactor". Refactoring occurs third in that process of (1) writing a failing test, (2) making the test pass, and then (3) improving the functioning code (refactoring).
 
 ### Why do we refactor?
 
@@ -37,3 +39,8 @@ b.  Did I use code that is overly compressed? Did my code make it hard to find b
 ## Let's get our hands dirty
 
 Here are two samples of code that will provide us with ample opportunity to refactor, according to the principles above.
+
+```ruby
+
+
+```
