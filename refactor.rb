@@ -1,27 +1,25 @@
-puts "Sup, sweety! Say something to STREET Grandma."
-input = gets.chomp
+puts "Whazzap, sweety! Say something to crazy Gramz."
+bye = 0
 while true
-   if input=="BYE"
-puts "SAY WAT?"
-input = get.chomp
-if input =="BYE"
+response = gets.chomp
 
-puts "SAY WAT?"
-input = gets.chomp
-
-
-  put "LATER, DAWG. GTFO!" if input == 'BYE'
-  break if input == "BYE"
-
-end
-
-if input != input.upcase
-
+if response == response.upcase && response != "BYE"
 year = rand(1930..1950)
-puts "HELL NO, 'CEPT IN #{(rand(1930..1950))}!"
-input = gets.chomp
+puts "zOMG, I did that  once in #{year}!"
+bye = 0
+
+
+elsif response == "BYE"
+bye += 1
+
+if bye == 3
+puts "LATER n00b. GTFO!"
+break
+  else
+  puts "SAY WAT?"
+  end
 else
-puts "WHY YOU WHISPERIN FOR?"
-input = gets.chomp
-end;
+puts "WHY YOU WHISPERIN?"
+bye = 0
+end
 end

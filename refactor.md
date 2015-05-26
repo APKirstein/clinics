@@ -6,7 +6,7 @@ This clinic is all about refactoring and how it can improve your programming gam
 
 What is refactoring? Refactoring is to code what copy editing is to a piece of writing. Here is a useful definition from [sourcemaking.com](sourcemaking.com):
 
-**Refactor** (verb): to restructure software by applying a series of improvements without changing its observable behavior.
+**Refactor** (verb): to restructure software by applying a series of improvements without necessarily changing its observable behavior.
 
 That means we are improving our code in some concrete fashion. We will go through some improvements together, momentarily.
 
